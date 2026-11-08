@@ -13,7 +13,7 @@ class TestCalculoEmisiones(unittest.TestCase):
         resultado = calcular_emisiones_carbono(100.0)
         self.assertEqual(resultado, 40.0)
 
-    # caso normal: le paso yo el factor
+    # caso normal: le paso el factor
     def test_calculo_con_factor_personalizado(self):
         resultado = calcular_emisiones_carbono(200.0, 0.5)
         self.assertEqual(resultado, 100.0)

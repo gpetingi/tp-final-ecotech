@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel de Sustentabilidad - EcoTech</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f0f7f0; }
+        h1 { color: #2e7d32; }
+        .dato { background-color: white; padding: 15px; margin-bottom: 10px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Panel de Sustentabilidad - EcoTech Solutions</h1>
+
+    {# estos valores vienen del diccionario de contexto de la vista #}
+    <div class="dato">
+        <strong>Total de emisiones:</strong> {{ total_emisiones }} kgCO2
+    </div>
+    <div class="dato">
+        <strong>Planta con mayor consumo:</strong> {{ planta_top }}
+    </div>
+</body>
+</html>
