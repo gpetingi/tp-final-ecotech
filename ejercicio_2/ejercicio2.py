@@ -42,7 +42,7 @@ class DispositivoEcologico:
 
 
 # PanelSolar hereda de DispositivoEcológico
-class PanelSolar(DispositivoEcológico):
+class PanelSolar(DispositivoEcologico):
     def __init__(self, modelo, precio, stock, eficiencia_watts):
         super().__init__(modelo, precio, stock)
         # atributo propio del panel solar
@@ -79,7 +79,7 @@ class GestorInventario:
 if __name__ == "__main__":
     # creo los productos validos
     panel = PanelSolar("PanelSolar-500", 1500.0, 10, 500)
-    termostato = DispositivoEcológico("Termostato-Pro", 350.0, 8)
+    termostato = DispositivoEcologico("Termostato-Pro", 350.0, 8)
     productos_validos = [panel, termostato]
 
     # muestro las fichas (polimorfismo)
