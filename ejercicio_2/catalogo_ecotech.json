@@ -1,0 +1,13 @@
+[
+    {
+        "modelo": "PanelSolar-500",
+        "precio": 1500.0,
+        "stock": 10,
+        "eficiencia_watts": 500
+    },
+    {
+        "modelo": "Termostato-Pro",
+        "precio": 350.0,
+        "stock": 8
+    }
+]
